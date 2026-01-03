@@ -250,6 +250,7 @@ function handleDisconnect(ws: any): void {
 
 const server = Bun.serve({
   port: PORT,
+  host: '0.0.0.0',
   fetch(req, server) {
     const url = new URL(req.url);
     

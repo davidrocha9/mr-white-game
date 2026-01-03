@@ -1,9 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import type { ClientMessage, ServerMessage, ClientGameState, Role } from './types';
 
-const WS_URL = import.meta.env.DEV 
-  ? 'ws://localhost:3001/ws' 
-  : `ws://${window.location.host}/ws`;
+const WS_URL = `${window.location.protocol === 'https:' ? 'wss:' : 'ws:'}//${window.location.host}/ws`;
 
 export interface GameConnection {
   connected: boolean;
