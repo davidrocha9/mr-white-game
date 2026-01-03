@@ -1,0 +1,28 @@
+# Server (Bun / Node)
+node_modules/
+dist/
+build/
+.env
+.env.*
+.env.local
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+coverage/
+
+# Bun
+bun.lockb
+
+# TypeScript
+.tsbuildinfo
+
+# Docker
+Dockerfile
+docker-compose*.yml
+
+# Lockfiles (commit if desired)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

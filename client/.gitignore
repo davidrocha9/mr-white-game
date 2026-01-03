@@ -1,0 +1,33 @@
+# Client (Vite + React)
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+.env.local
+.cache/
+.cache-loader
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+coverage/
+
+# Build outputs
+build/
+out/
+
+# Local dev
+.vite/deps/
+
+# Lockfiles (commit if desired)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

@@ -1,0 +1,61 @@
+## Node / JS
+node_modules/
+**/node_modules/
+dist/
+build/
+out/
+/.parcel-cache/
+.cache/
+
+## Vite / client
+client/dist/
+client/.cache/
+
+## Bun
+bun.lockb
+
+## TypeScript
+.tsbuildinfo
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+## Environment
+.env
+.env.*
+.env.local
+
+## System files
+.DS_Store
+Thumbs.db
+
+## Editors/IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+## OS
+ehthumbs.db
+Icon?
+
+## Test coverage
+coverage/
+.nyc_output/
+
+## Docker
+docker-compose.override.yml
+Dockerfile.dev
+
+## Deployment output
+.vercel/
+.netlify/
+.firebase/
+
+## Misc
+*.tgz
+.cache-loader
